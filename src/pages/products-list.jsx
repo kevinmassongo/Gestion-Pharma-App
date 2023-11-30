@@ -1,7 +1,6 @@
 import ProductService from "../models/services/productService.js";
 import ProductPreview from "../components/product-preview/product-preview.jsx";
 
-
 function ProductsList(){
     const data = ProductService.getProducts();
 
