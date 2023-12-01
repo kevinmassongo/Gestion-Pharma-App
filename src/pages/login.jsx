@@ -5,10 +5,15 @@ function Login(){
     const handleClick = () =>{
         navigate('/home');
     }
+
+    const handleClickAdmin = () =>{
+        navigate('/all-product');
+    }
     return (
         <>
           <h1>Login Pages</h1>
           <button onClick={handleClick}>Connexion</button>
+          <button onClick={handleClickAdmin}>Administrateur</button>
         </>
     );
 }
