@@ -11,9 +11,12 @@ function Login(){
     }
     return (
         <>
-          <h1>Login Pages</h1>
-          <button onClick={handleClick}>Connexion</button>
-          <button onClick={handleClickAdmin}>Administrateur</button>
+          
+        <h1>Login Pages</h1>
+        <div className="button">
+            <button onClick={handleClick}>Connexion</button>
+            <button onClick={handleClickAdmin}>Administrateur</button>
+        </div>
         </>
     );
 }

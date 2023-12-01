@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 function DashBoardNavBar() {
     return (
-        <ul>
+        <ul className="ul">
             <li>
                 <NavLink to="/all-product">All Product</NavLink>
             </li>
